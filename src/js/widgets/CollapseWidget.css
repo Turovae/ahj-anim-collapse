@@ -1,0 +1,10 @@
+.collapse:not(.show) {
+  max-height: 0;
+  margin: 0;
+}
+
+.collapse {
+  /* max-height: 100vh; */
+  transition: max-height .5s linear, margin, .5s linear;
+  overflow: hidden;
+}

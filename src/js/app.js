@@ -1,2 +1,5 @@
-// eslint-disable-next-line no-console
-console.log('Hello World');
+import CollapseWidget from './widgets/CollapseWidget';
+
+const widget = new CollapseWidget();
+
+widget.init();
